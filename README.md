@@ -56,7 +56,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo](https://gleaming-faloodeh-441eb6.netlify.app/)
+- [Live Demo](https://amazing-trifle-690b7b.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

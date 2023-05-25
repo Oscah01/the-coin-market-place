@@ -1,12 +1,16 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css';
-import Nav from './Components/Nav';
+import React from 'react';
+import { Outlet } from 'react-router-dom';
+
+import Navbar from './components/Navbar';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
-    <div className="App">
-      <Nav />
-    </div>
+    <>
+      <Navbar />
+      <ScrollToTop />
+      <Outlet />
+    </>
   );
 }
 

@@ -28,7 +28,7 @@ function Navbar() {
         </NavLink>
       )}
       <h1 className={styles.title}>
-        <NavLink to="/">Crypto Metrics</NavLink>
+        <NavLink to="/">The coin market place</NavLink>
       </h1>
       <button type="button" onClick={toggleModal}>
         <Icon icon="material-symbols:settings" />

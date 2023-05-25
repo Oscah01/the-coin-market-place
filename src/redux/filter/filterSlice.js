@@ -8,10 +8,10 @@ const filterSlice = createSlice({
   name: 'filters',
   initialState,
   reducers: {
-    setCurrency: (state, action) => {
-      // eslint-disable-next-line no-param-reassign
-      state.currency = action.payload;
-    },
+    setCurrency: (state, action) => ({
+      ...state,
+      currency: action.payload,
+    }),
   },
 });
 
